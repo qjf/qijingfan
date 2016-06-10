@@ -1021,17 +1021,8 @@ hr.style15:after {
 .ux-1{
   background: url('../img/teenta.png') no-repeat;
 }
-.ux-2{
-  background: url();
-}
-.ux-3{
-  background: url();
-}
-.ux-4{
-  background: url();
-}
-.ux-5{
-  background: url();
+.product-1{
+  background:url('../img/yelp-all-ai.png') no-repeat;
 }
 .visualbrand,
 .visualbrand-2,
@@ -1041,7 +1032,8 @@ hr.style15:after {
 .ux-2,
 .ux-3,
 .ux-4,
-.ux-5{
+.ux-5,
+.product-1{
   width: 100%;
   height: 800px;
   overflow: hidden;
@@ -1102,7 +1094,8 @@ hr.style15:after {
   .ux-3,
   .ux-4,
   .ux-5,
-  ux-info{
+  ux-info,
+  .product-1{
     height: 600px;
   }
   .visualbrand-4{
@@ -1119,7 +1112,8 @@ hr.style15:after {
   .ux-3,
   .ux-4,
   .ux-5,
-  ux-info{
+  ux-info,
+  .product-1{
     height: 500px;
   }
   .visualbrand-4{
@@ -1163,7 +1157,8 @@ hr.style15:after {
   .ux-3,
   .ux-4,
   .ux-5,
-  ux-info{
+  ux-info,
+  .product-1{
     height: 340px;
   }
   .visualbrand-4{
@@ -1243,6 +1238,11 @@ hr.style15:after {
     padding-right: 39px;
   }
 }
+@media (min-width: 400px) {
+  .product-bottom {
+    padding-right: 85px;
+  }
+}
 .visualbrand-6 img {
   width: 100%;
 }
@@ -1251,4 +1251,10 @@ hr.style15:after {
   background: -webkit-linear-gradient(to left, #FF512F , #d8292d); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #FF512F , #d8292d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 100%;
+  opacity: 0.9;
+}
+.yelp h3,
+.yelp p,
+.product-bottom li a{
+  color: #d8292d;
 }
